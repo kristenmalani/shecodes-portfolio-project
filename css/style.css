@@ -1,6 +1,6 @@
 :root {
-    --branding-color: #6c63ff;
-    --secondary-color: #f9f7fe;
+    --branding-color: #796A62;
+    --secondary-color: #edeae7;
     --heading-font-family: 'Kaisei HarunoUmi', serif;
     --default-font-family: 'Poppins', sans-serif;
 }
@@ -12,13 +12,21 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font-family);
     font-weight: bold;
-    font-size: 90px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 160px 10px;
 }
 
 .hero p {
@@ -27,11 +35,17 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.hero h1 {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 1.5;
+}
+
 .hero h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .btn-branding {
@@ -42,3 +56,33 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 27px;
     padding: 15px 30px;
 }
+
+.btn-branding-outline {
+    border-radius: 4px;
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.project-description {
+    padding: 30px 10px;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+}
+
