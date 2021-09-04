@@ -22,6 +22,32 @@ p {
     font-size: 20px;
     line-height: 30px;
 }
+.nav {
+    padding: 20px 0;
+}
+
+.nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 24px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: var(--branding-color);
+    line-height: 42px;
+}
+
+.nav a:hover, .nav li.active a {
+    color:black;
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+.logo {
+    max-height: 42px;
+}
+
 
 .hero {
     background-color: var(--secondary-color);
@@ -150,5 +176,11 @@ p {
         font-size: 16px;
     }
 
+    .nav {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
 }
+
 
