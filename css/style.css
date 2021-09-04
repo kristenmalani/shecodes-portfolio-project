@@ -108,7 +108,9 @@ p {
 
 .profile-picture {
     border-radius: 10px;
-    max-width: 400px;
+    width: 500px;
+    height: auto;
+    margin-right: 24px;
 }
 
 .btn-branding {
