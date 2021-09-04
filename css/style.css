@@ -223,6 +223,22 @@ footer .social-links a:hover {
     background: var(--branding-color);
 }
 
+.bottom-note {
+    text-align: center;
+    font-size: 14px;
+    color: var(--branding-color);
+    margin: 0;
+}
+
+.bottom-link {
+    color:var(--branding-color);
+}
+
+.bottom-link:hover {
+    text-decoration: none;
+    color: #375AC0;
+}
+
 @media (max-width: 960px) {
     .hero p {
         font-size: 22px;
