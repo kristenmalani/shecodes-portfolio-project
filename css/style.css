@@ -177,6 +177,12 @@ p {
     text-decoration: none;
 }
 
+.contact-link:hover {
+    color: #375AC0;
+    text-decoration: none;
+
+}
+
 footer {
     margin: 60px 0;
 }
