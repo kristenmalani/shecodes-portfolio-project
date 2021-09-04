@@ -123,6 +123,32 @@ p {
     padding: 15px 30px;
 }
 
+.project-hero {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+.project-hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.project-hero h1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.5;
+}
+
+.project-hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
 .project-description {
     padding: 100px 20px;
 }
@@ -152,6 +178,7 @@ footer .contact-box {
     background-color: var(--secondary-color);
     padding: 30px 60px;
     border-radius: 10px;
+    margin: 20px;
 }
 
 footer .contact-box p {
