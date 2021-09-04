@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Kristen M. Valle</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +18,20 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/images/logo.png" alt="Kristen logo" class="logo d-none d-md-block" title="Homepage"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="/">
+            <img src="/images/coffee-logo.png" alt="Kristen logo" class="logo d-none d-md-block" title="Homepage"></a>
+            <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/" title="Home">Home</a>
@@ -44,7 +53,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="about-section-content">
-    <h1 class="mb-4">Hello, I am Kristen Valle</h1>
+    <h1 class="mb-4">About Kristen</h1>
     <h2 class="mb-4">Front-end developer based in the US</h2>
     <p class="mb-4">After working in healthcare for the past five years, I am now looking to make a career transition into the tech world. I aspire to join an engineering team, ideally in a UI/UX or data engineering role. I would love to bring more representation of women and Asian-Americans to STEM as well. In my free time, I enjoy reading, traveling and listening to podcasts on personal development and finance.  </p>
     <a href="/work.html" class="btn btn-branding mb-3"> View my projects <i class="fas fa-laptop"></i></a>

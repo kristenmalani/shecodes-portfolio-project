@@ -99,6 +99,7 @@ p {
 
 .about-section p {
     font-weight: 300;
+    font-size: 16px;
 }
 
 .about-section-content {
@@ -107,7 +108,7 @@ p {
 
 .profile-picture {
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .btn-branding {
@@ -160,7 +161,7 @@ p {
 
 .content {
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 10px;
 }
 
 .content h3 {
@@ -254,6 +255,14 @@ footer .social-links a:hover {
         padding: 0;
         margin-top: 10px;
         font-size: 14px;
+    }
+
+    .project-hero h1 {
+        font-size: 44px;
+    }
+
+    .project-hero h2 {
+        font-size: 22px;
     }
 
 
