@@ -2,7 +2,7 @@
     --branding-color: #796A62;
     --secondary-color: #edeae7;
     --heading-font-family: 'Kaisei HarunoUmi', serif;
-    --default-font-family: 'Poppins', sans-serif;
+    --default-font-family: 'Azeret Mono', monospace;
 }
 
 body {
@@ -76,7 +76,7 @@ p {
 }
 
 .hero h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Azeret Mono', monospace;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.5;
@@ -147,7 +147,7 @@ p {
 }
 
 .project-hero h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Azeret Mono', monospace;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.5;
